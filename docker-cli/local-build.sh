@@ -1,3 +1,6 @@
+# 本地批量构建脚本
+
+
 ./docker-cli/desktop-build.sh 18.04 && \
 ./docker-cli/desktop-build.sh 20.04 && \
 ./docker-cli/desktop-build.sh 22.04 && \

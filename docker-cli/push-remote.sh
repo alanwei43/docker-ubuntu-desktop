@@ -1,3 +1,5 @@
+# 本地批量推送到远程仓库
+
 # Ubuntu Desktop
 docker push alanway/ubuntu-desktop:18.04 && \
 docker push alanway/ubuntu-desktop:20.04 && \

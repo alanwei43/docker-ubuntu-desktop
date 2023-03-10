@@ -1,4 +1,5 @@
 # 注意脚本需要在项目根目录执行
+# 构建Ubuntu桌面镜像
 # Usage: ./docker-cli/desktop-build.sh 22.04
 
 UBUNTU_VERSION=$1

@@ -1,4 +1,5 @@
 # 注意脚本需要在项目根目录执行
+# 构建 Chrome 浏览器镜像
 # Usage: ./docker-cli/chrome.sh 20.04 86
 
 UBUNTU_VERSION=$1
