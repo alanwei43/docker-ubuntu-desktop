@@ -1,3 +1,4 @@
 docker-cli/
 softwares/
 !softwares/caddy/
+*.log

@@ -1,5 +1,5 @@
 ARG BASE_TAG="develop"
-ARG BASE_IMAGE="core-ubuntu-jammy"
+ARG BASE_IMAGE="core-ubuntu-focal"
 FROM kasmweb/$BASE_IMAGE:$BASE_TAG
 
 USER root
@@ -52,8 +52,9 @@ ENV VNC_UN=ubuntu
 COPY ./kasmvnc.yaml /etc/kasmvnc/kasmvnc.yaml
 
 WORKDIR /data
-COPY ./ ./
+COPY ./scripts ./scripts
+COPY ./temp ./temp
 RUN chmod +x /data/scripts/*
-RUN dpkg -i ./temp/chrome-version.deb
+RUN dpkg -i ./temp/chrome.deb
 
 ENTRYPOINT ["/data/scripts/startup.sh"]
