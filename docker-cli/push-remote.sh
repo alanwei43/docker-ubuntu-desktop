@@ -8,6 +8,15 @@ docker push alanway/ubuntu-desktop:20.04 && \
 echo "push to alanway/ubuntu-desktop:22.04" >> build.log
 docker push alanway/ubuntu-desktop:22.04 && \
 
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:18.04" >> build.log
+docker push registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:18.04 && \
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:20.04" >> build.log
+docker push registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:20.04 && \
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04" >> build.log
+docker push registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04 && \
+
+
+
 # ubuntu 20.04 chrome
 echo "push to alanway/ubuntu-desktop:20.04-chrome-69" >> build.log
 docker push alanway/ubuntu-desktop:20.04-chrome-69 && \
