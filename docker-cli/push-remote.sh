@@ -65,9 +65,9 @@ docker push alanway/ubuntu-desktop:22.04-chrome-102 && \
 echo "push to alanway/ubuntu-desktop:22.04-chrome-104" >> build.log
 docker push alanway/ubuntu-desktop:22.04-chrome-104 && \
 
-echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-90"" >> build.log
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-90" >> build.log
 docker push "registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-90" && \
-echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-102"" >> build.log
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-102" >> build.log
 docker push "registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-102" && \
-echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-104"" >> build.log
+echo "push to registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-104" >> build.log
 docker push "registry.cn-hangzhou.aliyuncs.com/alanwei/ubuntu-desktop:22.04-chrome-104"
