@@ -6,41 +6,27 @@
 
 **仅UI桌面系统镜像**
 
-* `alanway/ubuntu-desktop:18.04`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:18.04`
-* `alanway/ubuntu-desktop:20.04`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04`
-* `alanway/ubuntu-desktop:22.04`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:22.04`
+* **Ubuntu 18.04 LTS** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:18.04`
+* **Ubuntu 20.04 LTS** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04`
+* **Ubuntu 22.04 LTS** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:22.04`
 
 **内置Chrome特定版本的系统镜像**
 
-* `alanway/ubuntu-desktop:20.04-chrome-69`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-69`
-* `alanway/ubuntu-desktop:20.04-chrome-70`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-70`
-* `alanway/ubuntu-desktop:20.04-chrome-79`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-79`
-* `alanway/ubuntu-desktop:20.04-chrome-80`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-80`
-* `alanway/ubuntu-desktop:20.04-chrome-83`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-83`
-* `alanway/ubuntu-desktop:20.04-chrome-86`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-86`
-* `alanway/ubuntu-desktop:20.04-chrome-90`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-90`
-* `alanway/ubuntu-desktop:20.04-chrome-102`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-102`
-* `alanway/ubuntu-desktop:20.04-chrome-104`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:20.04-chrome-104`
-* `alanway/ubuntu-desktop:22.04-chrome-90`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:22.04-chrome-90`
-* `alanway/ubuntu-desktop:22.04-chrome-102`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:22.04-chrome-102`
-* `alanway/ubuntu-desktop:22.04-chrome-104`
-  * 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password ubuntu-desktop:22.04-chrome-104`
+* **Ubuntu 20.04 + Chrome v69** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-69`
+* **Ubuntu 20.04 + Chrome v70** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-70`
+* **Ubuntu 20.04 + Chrome v79** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-79`
+* **Ubuntu 20.04 + Chrome v80** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-80`
+* **Ubuntu 20.04 + Chrome v83** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-83`
+* **Ubuntu 20.04 + Chrome v86** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-86`
+* **Ubuntu 20.04 + Chrome v90** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-90`
+* **Ubuntu 20.04 + Chrome v102** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-102`
+* **Ubuntu 20.04 + Chrome v104** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:20.04-chrome-104`
+* **Ubuntu 22.04 + Chrome v90** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:22.04-chrome-90`
+* **Ubuntu 22.04 + Chrome v102** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:22.04-chrome-102`
+* **Ubuntu 22.04 + Chrome v104** 启动示例脚本: `docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_UN=ubuntu -e VNC_PW=password alanway/ubuntu-desktop:22.04-chrome-104`
 
 > 对应阿里云镜像, 把 `alanway/` 替换成 `registry.cn-hangzhou.aliyuncs.com/alanwei/` 即可.
+
 ## Desktop
 
 ### 使用
